@@ -3,8 +3,8 @@
  */
 
 :root {
-	--bg-color: rgba(255, 255, 240, 1);
-	--body-color: rgba(240, 240, 225, 1);
+    --bg-color: rgba(255, 255, 240, 1);
+    --body-color: rgba(240, 240, 225, 1);
 }
 
 /* --------------------------------------------------------------------------------------
@@ -12,28 +12,29 @@
  */
 
 html {
-	font-family: "Roboto";
-	font-size: 16px;
+    font-family: "Roboto";
+    font-size: 16px;
 }
 
 body {
-	height: 100vh;
-	background-color: var(--body-color);
+    height: 100vh;
+    background-color: var(--body-color);
 }
 
 h1 {
-	display: block;
-	margin: 0 40px;
-	padding: 20px;
-	box-shadow: 0 15px 20px -20px rgba(100, 100, 100, 1);
-	font-size: 2rem;
+    display: block;
+    margin: 0 40px;
+    padding: 20px;
+    box-shadow: 0 15px 20px -20px rgba(100, 100, 100, 1);
+	border-bottom: 1px solid rgba(100, 100, 100, .75);
+    font-size: 2rem;
 }
 
 main {
-	height: 80vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* --------------------------------------------------------------------------------------
@@ -41,20 +42,20 @@ main {
 */
 
 .text-container {
-	width: 50vw;
-	height: 50vh;
-	background-color: var(--bg-color);
+    width: 50vw;
+    height: 50vh;
+    background-color: var(--bg-color);
 }
 .text-wrapper {
-	width: calc(50vw - 10px);
-	padding: 0 10px 0 20px;
-	text-align: justify;
+    width: calc(50vw - 10px);
+    padding: 0 10px 0 20px;
+    text-align: justify;
 }
 .text-wrapper p {
-	text-indent: 1rem;
+    text-indent: 1rem;
 }
 .text-wrapper p:not(:last-child) {
-	margin-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 
 /* --------------------------------------------------------------------------------------
@@ -62,25 +63,25 @@ main {
 */
 
 .scroll-container {
-	overflow: hidden;
+    overflow: hidden;
 }
 .scroll-container:hover {
-	overflow-y: auto;
+    overflow-y: auto;
 }
 .box {
-	box-shadow: 0 0 20px 0 rgba(100, 100, 100, 1);
+    box-shadow: 0 0 20px 0 rgba(100, 100, 100, 1);
 }
 
 .top-gradient-bar,
 .bottom-gradient-bar {
-	position: sticky;
-	height: 1rem;
+    position: sticky;
+    height: 1rem;
 }
 .top-gradient-bar {
-	top: 0;
-	background-image: linear-gradient(to top, transparent, var(--bg-color));
+    top: 0;
+    background-image: linear-gradient(to top, transparent, var(--bg-color));
 }
 .bottom-gradient-bar {
-	bottom: 0;
-	background-image: linear-gradient(to bottom, transparent, var(--bg-color));
+    bottom: 0;
+    background-image: linear-gradient(to bottom, transparent, var(--bg-color));
 }
