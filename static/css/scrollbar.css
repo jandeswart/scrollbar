@@ -7,6 +7,7 @@
 
 /* Webkit scrollbar-properties: */
 
+/* The scrollbar: */
 .scroll-container::-webkit-scrollbar {
 	width: 20px;
 }
