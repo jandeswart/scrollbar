@@ -30,10 +30,6 @@ body {
 
 h1 {
 	/* display: block; */
-	margin: 0 10vw;
-	padding: 20px;
-	box-shadow: 0 15px 20px -20px rgba(100, 100, 100, 1);
-	border-bottom: 1px solid rgba(100, 100, 100, 0.75);
 	font-size: 2rem;
 }
 h2{
@@ -42,7 +38,13 @@ h2{
 }
 
 header {
+	display: flex;
+	align-items: center;
 	height: 10vh;
+	margin: 0 10vw;
+	padding-left: 20px;
+	box-shadow: 0 15px 20px -20px rgba(100, 100, 100, 1);
+	border-bottom: 1px solid rgba(100, 100, 100, 0.75);
 }
 
 main {
@@ -53,13 +55,15 @@ main {
 }
 
 footer {
+	display: flex;
+	align-items: center;
 	position: absolute;
 	bottom: 0;
 	margin: 0 10vw;
 	height: 3rem;
 	width: 80vw;
 	box-shadow: 0 -20px 20px -20px rgba(100, 100, 100, 1);
-	border-top: 1px solid rgba(100, 100, 100, 0.25);
+	border-top: 1px solid rgba(100, 100, 100, 0.75);
 }
 
 /* --- The text-block: ----------------------------------------------------- */
@@ -85,7 +89,7 @@ footer {
 
 footer p {
 	width: 100%;
-	padding: 1rem 20px;
+	padding-left: 20px;
 	font-size: 0.9rem;
 }
 
