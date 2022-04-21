@@ -115,7 +115,7 @@ footer p {
 .top-gradient-bar,
 .bottom-gradient-bar {
 	position: sticky;
-	height: 1rem;
+	height: 1.5rem;
 }
 .top-gradient-bar {
 	top: 0;
