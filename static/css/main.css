@@ -11,10 +11,12 @@
 	box-sizing: border-box;
 }
 
-a, a:active, a:visited{
+a,
+a:active,
+a:visited {
 	color: rgba(0, 50, 255, 1);
 }
-a:hover{
+a:hover {
 	color: rgba(255, 0, 0, 1);
 }
 
@@ -31,12 +33,12 @@ body {
 h1 {
 	font-size: 2rem;
 }
-h2{
+h2 {
 	font-size: 1.5rem;
 	margin-bottom: 1rem;
 }
 
-abbr{
+abbr {
 	text-decoration: none;
 }
 
