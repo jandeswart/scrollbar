@@ -1,19 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
 
 <head>
 	<meta charset="UTF-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="author" content="Jan de Swart">
+	<meta name="description" content="A simple custom scrollbar that shows on hover and hides on mouseout">
 
 	<title>Scrollbar-width</title>
+
+	<link rel="icon" href="./favicon.png" type="image/x-icon">
 
 	<link rel="stylesheet" href="./static/css/reset.css" />
 	<link rel="stylesheet" href="./static/css/fonts.css" />
 	<link rel="stylesheet" href="./static/css/scrollbar.css" />
 	<link rel="stylesheet" href="./static/css/main.css" />
 
-	<script type="module" src="./static/js/main.js" defer></script>
+	<script src="./static/js/main.js" type="module"></script>
 </head>
 
 <body>
@@ -24,10 +28,10 @@
 	</header>
 
 	<main>
-		<section id="TextContainer" class="text-container scroll-container box">
+		<div id="TextContainer" class="text-container scroll-container box">
 			<div class="top-gradient-bar"></div>
 
-			<article id="TextWrapper" class="text-wrapper">
+			<section id="TextWrapper" class="text-wrapper">
 				<h2>Lorem ipsum</h2>
 				<p>
 					Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -229,10 +233,10 @@
 					pariatur modi fugit, temporibus aut, quidem harum sit.
 					Debitis, reiciendis itaque?
 				</p>
-			</article>
+			</section>
 
 			<div class="bottom-gradient-bar"></div>
-		</section>
+		</div>
 	</main>
 
 	<footer>

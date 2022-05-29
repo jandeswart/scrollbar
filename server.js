@@ -8,9 +8,10 @@ const path = require("path");
 
 const PORT = 3000;
 
-/** The location of the static files: */
+/** Set the location of the static files: */
 app.use(express.static(__dirname));
 
+/** Serve the index.html-file: */
 app.get("/", function (req, res) {
 	res.sendFile(path.join(__dirname, "index.html"));
 });
