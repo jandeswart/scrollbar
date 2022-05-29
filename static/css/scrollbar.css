@@ -1,28 +1,28 @@
 /* Firefox scrollbar-properties: */
 
 .scroll-container {
-    scrollbar-width: thin;
-    scrollbar-color: rgba(100, 100, 100, 1) var(--bg-color);
+	scrollbar-width: thin;
+	scrollbar-color: rgba(100, 100, 100, 1) var(--bg-color);
 }
 
 /* Webkit scrollbar-properties: */
 
 /* The scrollbar: */
 .scroll-container::-webkit-scrollbar {
-    width: 20px;
+	width: 20px;
 }
 /* Scrollbar-track */
 .scroll-container::-webkit-scrollbar-track {
-    background: var(--bg-color);
+	background: var(--bg-color);
 }
 /* Scrollbar-handle */
 .scroll-container::-webkit-scrollbar-thumb {
-    background: rgba(100, 100, 100, 0.5);
-    border: 6px solid var(--bg-color); /* same color as the background of the containing element */
-    border-radius: 10px;
-    opacity: 0.5;
+	background: rgba(100, 100, 100, 0.5);
+	border: 6px solid var(--bg-color); /* same color as the background of the containing element */
+	border-radius: 10px;
+	opacity: 0.5;
 }
 /* Scrollbar-handle on hover */
 .scroll-container::-webkit-scrollbar-thumb:hover {
-    background: rgba(100, 100, 100, 1);
+	background: rgba(100, 100, 100, 1);
 }
