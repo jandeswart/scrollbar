@@ -2,7 +2,7 @@
 	"name": "scrollbar",
 	"version": "1.0.0",
 	"description": "A simple way to create a custom scrollbar using CSS. The scrollbar is shown when the mouse hovers the scrollable element and is hidden when the mouse leaves that element. The custom CSS works in all webkit-browsers. Firefox does not support most of it, but uses the scrollbar-width and and scrollbar-color properties on the the element that contains the scrollbar.",
-	"main": "index.js",
+	"main": "server.js",
 	"scripts": {
 		"dev": "nodemon server.js"
 	},
